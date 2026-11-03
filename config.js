@@ -45,10 +45,6 @@ window.SITE = {
   sideProjects: [
     { name: "[Side project one]", url: "[project-one].vercel.app", link: "", desc: "[One line on what it does and who it is for]",
       prompt: "'[what you asked the AI]'", stack: "[Claude + Cursor]", tags: ["Claude", "Cursor"] },
-    { name: "[Side project two]", url: "[project-two].vercel.app", link: "", desc: "[One line on what it does and who it is for]",
-      prompt: "'[what you asked the AI]'", stack: "[tool]", tags: ["[tool]"] },
-    { name: "[Side project three]", url: "[project-three].app", link: "", desc: "[One line on what it does and who it is for]",
-      prompt: "'[what you asked the AI]'", stack: "[tool]", tags: ["[tool]"] },
   ],
 
   // ---- Toolkit icons (images/toolkit/) ----
@@ -74,7 +70,7 @@ window.SITE = {
 
   // ---- Polaroids on the desk (put photos in images/desk/) ----
   desk: {
-    photo1: "", caption1: "[place, year]",
+    photo1: "Triund,2025.jpeg", caption1: "[Triund trek,2025r]",
     photo2: "", caption2: "[place, year]",
   },
 };
