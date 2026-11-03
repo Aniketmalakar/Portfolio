@@ -70,7 +70,7 @@ window.SITE = {
 
   // ---- Polaroids on the desk (put photos in images/desk/) ----
   desk: {
-    photo1: "Triund,2025.jpeg", caption1: "[Triund trek,2025r]",
+    photo1: "images/desk/Triund,2025.jpeg", caption1: "[Triund trek,2025r]",
     photo2: "", caption2: "[place, year]",
   },
 };
