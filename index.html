@@ -16,6 +16,7 @@
     html { scroll-behavior: smooth; }
     body { margin: 0; background: #f3eee2; -webkit-font-smoothing: antialiased; overflow-x: clip; }
     section { scroll-margin-top: 0; }
+    .mock { pointer-events: none; }  /* thumbnails are pictures, not buttons */
     #root:empty::before { content: "Loading…"; display: block; padding: 40px; font-family: sans-serif; color: #14213d; }
   </style>
 </head>
@@ -23,6 +24,7 @@
   <div id="root"></div>
   <noscript>This portfolio needs JavaScript turned on.</noscript>
   <script src="config.js"></script>
+  <script src="boards.js"></script>
   <script src="app.js"></script>
 </body>
 </html>
